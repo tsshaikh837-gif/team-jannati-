@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fan of Fans | Home</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+ <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+<body>
+    <script>
+function downloadPage() {
+    const htmlContent = document.documentElement.outerHTML;
+
+    const blob = new Blob([htmlContent], { type: "text/html" });
+    const link = document.createElement("a");
+
+    link.href = URL.createObjectURL(blob);
+    link.download = "my-page.html";   // file name
+    link.click();
+}
+
+function downloadPDF() {
+    const element = document.getElementById("pdf-content");
+
+    const options = {
+        margin: 10,
+        filename: 'Fan-of-Fans.pdf',
+        image: { type: 'jpeg', quality: 0.95 },
+        html2canvas: {
+            scale: 2,
+            useCORS: true,
+            scrollY: 0
+        },
+        jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
+    };
+
+    html2pdf().set(options).from(element).save();
+}
+</script>
+<div id="pdf-content">
+<div class="marquee-wrapper">
+<div class="marquee-text">
+<div class="top-bar"><span>⚡LUXURY COOLING: SAVE UP TO 60% ON ELECTRICITY BILLS ⚡</span></div>
+</div>
+</div>
+
+<header>
+  <div class="logo"><h1>FAN o FANS</h1></div>
+  <nav>
+    <a href="ind 2.html">HOME</a>
+    <a href="pro 2.html">COLLECTION</a>
+    <a href="war 2.html">WARRANTY</a>
+    <a href="complain 2.html">COMPLAINT</a>
+    <!-- <a href="customerservice 2.html">CUSTOMER SERVICE</a> -->
+    <a href="contact 2.html">CONTACT</a>
+    <a href="form.html (1).html"><i class="fa-regular fa-user"></i></a>
+    <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+    <a href="pdf.html"><i class="fa-solid fa-download"></i></a>
+
+  </nav>
+</header>
+
+<section class="hero">
+    <img src="ChatGPT Image Jan 23, 2026, 06_52_21 PM.png" alt="Premium Fan Background" class="hero-bg-img">
+    <div class="hero-overlay"></div>
+    <div class="hero-text">
+        <h2>Luxury Inverter Fans</h2>
+        <p>Smart Technology. Elegant Designs. Sustainable Energy.</p>
+        <button class="hero-btn">Explore Collection</button>
+    </div>
+</section>
+
+
+
+<section class="cat-section">
+    <h2 class="section-header">Our Specialized Categories</h2>
+    <div class="cat-container">
+        <div class="cat-card"><img src="WhatsApp Image 2026-01-31 at 10.19.35 AM (1).jpeg" alt="Ceiling"><p>Ceiling Fans</p></div>
+        <div class="cat-card"><img src="WhatsApp Image 2026-01-31 at 10.19.33 AM.jpeg" alt="Exhaust"><p>Exhaust Fans</p></div>
+        <div class="cat-card"><img src="WhatsApp Image 2026-01-31 at 10.19.34 AM.jpeg" alt="Bracket"><p>Portable Fans</p></div>
+        <div class="cat-card"><img src="WhatsApp Image 2026-01-31 at 10.19.35 AM.jpeg" alt="Table"><p>Table Fans</p></div>
+    </div>
+</section>
+
+
+
+<div class="container">
+    <h2 class="section-header" style="text-align: center;">Premium Collection</h2>
+    <div class="project-grid">
+        <div class="project-card">
+            <img src="About this item APP & REMOTE CONTROL_ The 52 inch ceiling fan with light is with the remote c. Great for indoor bedroom living room kitchen dining room and covered outdoor patios porch gazebo _ See more product details" alt="Golden Fan">
+            <h3>Royal Petite Bracket Fan</h3>
+            <span class="price">Rs. 25,500</span>
+            <button class="buy-btn">Add to Cart</button>
+        </div>
+        <div class="project-card">
+            <img src="amazon_in.jpg" alt="Pro Fan">
+            <h3>Royal Mystic Mist Fan</h3>
+            <span class="price">Rs. 18,200</span>
+            <button class="buy-btn">Add to Cart</button>
+        </div>
+        <div class="project-card">
+            <img src="Ceiling Fans Lights,52 Inch,nightlight,quiet,reversible Motor,6 Speeds, Black.jpg" alt="Wooden Fan">
+            <h3>Royal False Ceiling Fan</h3>
+            <span class="price">Rs. 19,400</span>
+            <button class="buy-btn">Add to Cart</button>
+        </div>
+        <div class="project-card">
+            <img src="About this item APP & REMOTE CONTROL_ The 52 inch ceiling fan with light is with the remote c. Great for indoor bedroom living room kitchen dining room and covered outdoor patios porch gazebo _ See more product details" alt="Golden Fan">
+            <h3>Royal Petite Bracket Fan</h3>
+            <span class="price">Rs. 25,500</span>
+            <button class="buy-btn">Add to Cart</button>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="project-grid">
+        <div class="project-card">
+            <img src="ChatGPT Image Jan 29, 2026, 01_18_07 AM.png" alt="Golden Fan">
+            <h3>Royal Golden Inverter</h3>
+            <span class="price">Rs. 25,500</span>
+            <button class="buy-btn">Add to Cart</button>
+        </div>
+        <div class="project-card">
+            <img src="Buy Crompton Silent Pro Enso 1225 mm (48 inch) ActivBLDC Remote Controlled  Ceiling Fan (Chestnut Wood, Brown) Online at Low Prices in India - ___.jpg" alt="Pro Fan">
+            <h3>Smart Executive Pro</h3>
+            <span class="price">Rs. 18,200</span>
+            <button class="buy-btn">Add to Cart</button>
+        </div>
+        <div class="project-card">
+            <img src="Ceiling Fans Lights,52 Inch,nightlight,quiet,reversible Motor,6 Speeds, Black.jpg" alt="Wooden Fan">
+            <h3>Tropical Wooden Edition</h3>
+            <span class="price">Rs. 19,400</span>
+            <button class="buy-btn">Add to Cart</button>
+        </div>
+        <div class="project-card">
+            <img src="About this item APP & REMOTE CONTROL_ The 52 inch ceiling fan with light is with the remote c. Great for indoor bedroom living room kitchen dining room and covered outdoor patios porch gazebo _ See more product details" alt="Golden Fan">
+            <h3>Royal Petite Bracket Fan</h3>
+            <span class="price">Rs. 25,500</span>
+            <button class="buy-btn">Add to Cart</button>
+        </div>
+    </div>
+</div>
+
+    
+    
+    <h1 class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3604.972916190124!2d68.34795367395536!3d25.372224174591835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x394c70620a660cb1%3A0x77fbd3f00ba99045!2sAptech%20Computer%20Education%2C%20Latifabad%20Unit%202%20Latifabad%2C%20Hyderabad%2C%2071000%2C%20Pakistan!5e0!3m2!1sen!2s!4v1768453542084!5m2!1sen!2s" width="1500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></h1>
+
+     <footer>
+       <div class="footer-main">
+        <div class="footer-column">
+            <h3>PRODUCTS</h3>
+            <ul>
+                <li>FANS</li>
+                <li>Office FANS</li>
+                <li>Recliners</li>
+                <li>Home Office Series</li>
+                <li>Table FANS</li>
+                <li>Sofa FANS</li>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+            <h3>INFORMATION</h3>
+            <ul>
+                <li>Corporate</li>
+                <a href=""><li>Track Order🚚</li></a>
+                <li>Catalogue</li>
+                <li>Careers</li>
+                <li>Blog</li>
+                <li>FAQs</li>
+                <li>Privacy Policy</li>
+                <li>Quality Policy</li>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+            <h3>CONTACT US</h3>
+            <ul>
+                <a href=""><li>About Us</li></a>
+                <a href=""><li>Store Locator</li></a>
+                <a href=""><li>Contact Us</li></a>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+          <h3>FOLLOW US</h3>
+          <ul >
+          <div style="display:flex; gap:15px; font-size:22px; color:#b08d57;">
+          <li><i class="fa-brands fa-whatsapp"></i></li>
+          </div>
+          <div style="display:flex; gap:15px; font-size:22px; color:#b08d57;">
+         <li><i class="fa-brands fa-facebook"></i></li>
+         </div>
+          <div style="display:flex; gap:15px; font-size:22px; color:#b08d57;">
+         <li><i class="fa-brands fa-instagram"></i></li>
+        </div>
+         <div style="display:flex; gap:15px; font-size:22px; color:#b08d57;">
+
+        </div>
+        </ul>
+        </div>
+
+        <div class="footer-logo">
+            <h2>FAN OF FAN</h2>
+        </div>
+    </div>
+                 
+     </div>
+    <div class="bottom-bar">
+    <p>© 2026 <span>FAN OF FAN</span> | Designed BY JANATI EPROJERCT♿ </p>
+    </div>
+    </footer>
+
+</div>
+</body>
+</html>
